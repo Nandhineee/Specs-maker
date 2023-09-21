@@ -5,7 +5,7 @@ body{
     text-align:center;
     height: 100%; 
     background-size: cover;
-    background: url(image3.jpg) no-repeat center ; 
+    background: url(image5.jpg) center ; 
   }
   
   p{
@@ -15,14 +15,16 @@ body{
   }
   
   h1{
-    font-size:1.5em;
-    color:#525252;
+    font: size 1.4em;
+    color: yellowgreen;
   }
   
   .box{
     background:white;
     border-radius:6px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 0 auto 0;
+    width: 300px;
+    text-align:center;
     padding:0px 0px 70px 0px;
     border: #2980b9 4px solid; 
   }
@@ -87,4 +89,13 @@ body{
   
   #btn2:hover{ 
   background:#3594D2; 
+  }
+
+  form{
+    margin-left:520px ;
+  }
+
+ a{
+    text-decoration: none;
+    color: black;
   }
